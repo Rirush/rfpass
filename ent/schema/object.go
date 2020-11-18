@@ -26,7 +26,8 @@ func (Object) Fields() []ent.Field {
 			Default(time.Now).
 			UpdateDefault(time.Now),
 		field.Time("deleted_at").
-			Nillable(),
+			Nillable().
+			Optional(),
 	}
 }
 
