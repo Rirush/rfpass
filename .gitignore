@@ -13,3 +13,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Ignore Jetbrains IDE directory
+/.idea/
+
+# Ignore entgo generated code
+ent/*
+!ent/generate.go
+!ent/schema
+!ent/schema/*
